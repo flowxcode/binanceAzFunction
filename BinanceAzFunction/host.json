@@ -2,8 +2,9 @@
   "version": "2.0",
   "logging": {
     "logLevel": {
-      "default": "Warning", // Higher default to reduce noise
-      "Function.Function1.User": "Information" // Allow Information+ for your custom logs
+      "default": "Warning", // Keeps overall noise low
+      "Function.Function1": "Information", // Allows system logs (Executing, Trigger Details, Executed)
+      "Function.Function1.User": "Information" // Allows your custom logs
     },
     "applicationInsights": {
       "samplingSettings": {

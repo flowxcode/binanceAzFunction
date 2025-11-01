@@ -9,3 +9,7 @@ For a `TimerTrigger` to work, you provide a schedule in the form of a [cron expr
 ## Learn more
 
 <TODO> Documentation
+
+## Fire local
+
+λ curl -X POST http://localhost:7215/admin/functions/Function1 -H "Content-Type: application/json" -d "{}"

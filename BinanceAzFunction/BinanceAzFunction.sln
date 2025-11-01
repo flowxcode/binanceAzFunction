@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinanceAzFunction", "BinanceAzFunction.csproj", "{6294C7E3-4B7C-484B-9688-3D84686A603B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6294C7E3-4B7C-484B-9688-3D84686A603B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6294C7E3-4B7C-484B-9688-3D84686A603B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6294C7E3-4B7C-484B-9688-3D84686A603B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6294C7E3-4B7C-484B-9688-3D84686A603B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13DC587A-45D1-4B67-938E-C515E699DDC6}
+	EndGlobalSection
+EndGlobal

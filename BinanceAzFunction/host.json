@@ -1,0 +1,15 @@
+{
+  "version": "2.0",
+  "logging": {
+    "logLevel": {
+      "default": "Warning", // Higher default to reduce noise
+      "Function.Function1.User": "Information" // Allow Information+ for your custom logs
+    },
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": false // Disable sampling entirely for testing
+      },
+      "enableLiveMetricsFilters": true
+    }
+  }
+}
